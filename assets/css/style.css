@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ *{
+    box-sizing: border-box;
+ }
+
+ body{
+    background-color:azure;
+    font-weight: bold;
+    color: rgb(11, 56, 2);
+    font-size: 20px;
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+ .header{
+    display: flex; /* html ogelerini hizalar */
+    justify-content: space-between; /* html ogelerini satira esit bosluklar birakarak yayar. */
+    align-items: center;
+    border: 3px solid rgb(41, 168, 15);
+    background-color:rgb(136, 240, 162);
+    border-radius: 10px; /* cercevenin kenarini yumusatmak icin kullanilir */
+    padding: 10px 20px; /* bir elementin ic kenarlara olan uzakligini belirler, once dusey, sonra yatay yapar*/
+    margin-bottom: 30px; /* bir elementin dis nesnelere olan uzakligini belirler */
+ }
+
+ .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .content .about {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 60%;
+    margin: 20px;
+ }
+
+ .content .about .photo{
+    padding: 20px;
+    margin: 10px;
+ }
+
+ .content .about .photo img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(41, 168, 15);
+    border-radius: 90px;
+    box-shadow: 15px 15px 15px gray;
+ }
+
+ .content .about .description{
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 4px ;
+    padding-top: 30px;
+    margin: 30px;
+    font-size: 25px;
+ }
+
+ .section {
+    width: 60%;
+
+ }
+
+ .section .card{
+    display: flex;
+    border: 3px solid rgb(41, 168, 15);
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+
+ }
